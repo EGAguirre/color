@@ -23,16 +23,26 @@ Color.isColor = function(rgb){
 };
 
 Color.redIntensity = function(rgb){
+  var red = rgb[0] / 255;
 
 };
 
 //greenIntensity
-
+color.greenIntensity = function(rgb){
+  var green = rgb[1] / 255;
+};
 
 //blueIntensity
+color.blueIntensity = function(rgb){
+  var blue = rgb[1] / 255;
 
+};
 
 //brightness
+color.redBrightness = function(rgb){
+  var red = rgb[0] / 255;
+};
+
 
 
 //complement
